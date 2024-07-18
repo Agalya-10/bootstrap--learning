@@ -9,7 +9,7 @@
     <title>Bootstrap learning</title>
 </head>
 <body>
-    <h1 class=" container p-4 bg-dark text-white text-center mt-5">Bootstrap</h1>
+    <h1 class=" container-fluid sticky-top p-4 bg-dark text-white text-center mt-5">Bootstrap</h1>
     <h1 class="h1">heading 1</h1>
     <h1 class="h2">heading 1</h1>
     <h1 class="h3">heading 1</h1>
@@ -23,10 +23,11 @@
     <h1 class="display-5">Display heading 5</h1>
     <h1 class="display-6">Display heading 6</h1>
    <div class="container-fluid">
-        <h1>Animals</h1>
+        <h1>container fluid</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores excepturi, ratione commodi consectetur quia voluptatibus dolorem veniam fugit temporibus, ab dignissimos. Odit quasi doloremque ad dolores vitae quibusdam molestias quis.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae expedita sequi reprehenderit obcaecati sed omnis itaque ducimus impedit! Quasi libero sit aut distinctio modi amet iure voluptatem alias corrupti sed!</p>
     </div>
+    <h1>Colors</h1>
     <p class="text-danger">container : Fixed width</p>
     <p class="text-success">container-fluid : Full width</p>
     <p class="text-info">This is sky blue</p>
@@ -69,42 +70,282 @@
                 </div>
                 <div class="col">
                     <ul class="list-inline">
-                    <p class="list-inline-item"><a class="text-decoration-none" href="#">privacy policy</a></p>
-                    <p class="list-inline-item"><a class="text-decoration-none"href="#">social media</a></p>
+                    <p class="list-inline-item"><a class="text-decoration-none" href="http://127.0.0.1:5500/index.html?name=&email=&dpmt=&no=&text=#:~:text=aut%20veritatis%20nisi.-,STUDENT%20FORM,-Student%20Name">privacy policy</a></p>
+                    <p class="list-inline-item"><a class="text-decoration-none"href="http://127.0.0.1:5500/index.html?name=&email=&dpmt=&no=&text=#:~:text=sky%20light%20black-,LOREM%20TABLES,-Home">social media</a></p>
                     <p class="list-inline-item"><a class="text-decoration-none"href="#">terms of service</a></p>
                  </ul>
                 </div>
             </div>
         </footer>
     </div>
-    <div class="row bg-dark">
-        <div class="col-12 col-sm-6 col-md-4 bg-white">
-        <div class="card">
+    <div class="row bg-secondary">
+        <div class="col-12 col-sm-6 col-md-4 ">
+        <!-- <div class="card style=width-100px"> -->
         <img class="img-fluid ms-5 mt-5 rounded"src="https://picsum.photos/300/300">
         <p class="col px-5 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, delectus sit? Eos tenetur dignissimos obcaecati enim eveniet modi. Recusandae sapiente obcaecati excepturi, ad voluptatem molestiae dolore voluptates quae atque aspernatur?</p> 
+        <!-- </div> -->
         </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 bg-white">   
+        <div class="col-12 col-sm-6 col-md-4 ">   
         <img class="img-fluid ms-5 mt-5 rounded"src="https://picsum.photos/300/300">    
         <p class="col px-5 py-3  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam delectus culpa, hic, reiciendis mollitia facere est molestias at ex quod excepturi adipisci laborum earum iusto nihil temporibus expedita eum.</p> 
         </div> 
-        <div class="col-12 col-sm-6 col-md-4 bg-white">
+        <div class="col-12 col-sm-6 col-md-4 ">
         <img class="img-fluid ms-5 mt-5 rounded" src="https://picsum.photos/300/300">      
         <p class="col px-5 py-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perferendis rem quam amet error, eos est officia molestias rerum, maxime magnam libero earum unde, dolore deleniti animi aut veritatis nisi.</p>  
         </div>
-        <div class="col-12 col-sm-6 col-md-4 bg-white">
+        <div class="col-12 col-sm-6 col-md-4">
         <img class="img-fluid ms-5 rounded"src="https://picsum.photos/300/300">
         <p class="col px-5 py-3 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, delectus sit? Eos tenetur dignissimos obcaecati enim eveniet modi. Recusandae sapiente obcaecati excepturi, ad voluptatem molestiae dolore voluptates quae atque aspernatur?</p>   
         </div>
-        <div class="col-12 col-sm-6 col-md-4 bg-white">  
+        <div class="col-12 col-sm-6 col-md-4 ">  
         <img class="img-fluid ms-5 rounded" src="https://picsum.photos/300/300">   
         <p class="col px-5 py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam delectus culpa, hic, reiciendis mollitia facere est molestias at ex quod excepturi adipisci laborum earum iusto nihil temporibus expedita eum.</p> 
         </div>  
-        <div class="col-12 col-sm-6 col-md-4 bg-white"> 
+        <div class="col-12 col-sm-6 col-md-4"> 
         <img class="img-fluid ms-5 rounded"src="https://picsum.photos/300/300">    
         <p class="col px-5 py-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perferendis rem quam amet error, eos est officia molestias rerum, maxime magnam libero earum unde, dolore deleniti animi aut veritatis nisi.</p> 
         </div>     
     </div>
+    <div class="container">
+        <div class="row bg-info mt-5">
+            <p class="h1 text-center">STUDENT FORM</p>
+            <form action="">
+                <div class="form group">
+                    <label class="text-center">Student Name</label>
+                    <input type="text" class="form-control" name="name"> 
+                </div>
+                <div class="form group">
+                    <label>Email ID</label>
+                    <input type="text" class="form-control" name="email"> 
+                </div>
+                <div class="form group">
+                    <label>Deparment</label>
+                    <input type="text" class="form-control" name="dpmt"> 
+                </div>
+                <div class="form group">
+                    <label>Mobile Number</label>
+                    <input type="text"class="form-control" name="no"> 
+                </div>
+                <div class="form group">
+                    <label>Feedback</label>
+                    <textarea name="text" class="form-control" name="feedback"></textarea>
+                    </div>
+                <button class="my-4 btn btn-success">submit</button>
+                </form>
+            </div>
+    </div>
+    <div class="container">
+        <h1>Employee Table</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr class="table-dark text-white">
+                    <th>NAME</th>
+                    <th>LAST NAME</th>
+                    <th>AGE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <td>Agalya</td>
+                    <td>Muruganantham</td>
+                    <td>20</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Amsavarthani</td>
+                    <td>Selvaraj</td>
+                    <td>21</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Ruban</td>
+                    <td>Selvendiran</td>
+                    <td>21</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Samarasam</td>
+                    <td>Palanidurai</td>
+                    <td>21</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Nivetha</td>
+                    <td>Murugaiyan</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h1>Responsive Table</h1>
+        <div class="table-responsive-md">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>                   
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                    <th>name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                    <td>nila</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+ </div>
+ <div class="container">
+    <h1>Alerts</h1>
+    <div class="alert alert-danger">
+        <strong>Danger!</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    </div>
+    <div class="alert alert-primary">
+        <strong>Primary!</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    </div>
+    <div class="alert alert-warning">
+        <strong>Warning!</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    </div>
+    <div class="alert alert-secondary">
+        <strong>Secondary!</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    </div>
+    <h1>Button Styles</h1>
+    <button type="button" class="btn btn-success">success</button>
+    <button type="button" class="btn btn-danger">danger</button>
+    <button type="button" class="btn btn-secondary">secondary</button>
+    <button type="button" class="btn btn-info">info</button>
+    <button type="button" class="btn btn-warning">warning</button>
+    <button type="button" class="btn btn-muted">muted</button>
+    <button type="button" class="btn btn-primary">primary</button>
+</div>
+<div class="btn-group btn-group-lg mt-5">
+    <p class="h1 pe-5">Large button group</p>
+    <button type="button" class="btn btn-info">private</button> 
+    <button type="button" class="btn btn-primary">public</button>
+    <button type="button" class="btn btn-success">Exit</button>
+    <button type="button" class="btn btn-danger">hide</button>
+</div>
+ 
+<div class="btn-group mt-5">
+    <p class="h1 pe-5">Default button group</p>
+    <button type="button" class="btn btn-info">private</button> 
+    <button type="button" class="btn btn-primary">public</button>
+    <button type="button" class="btn btn-success">Exit</button>
+    <button type="button" class="btn btn-danger">hide</button>
+</div>
+<div class="btn-group btn-group-sm mt-5">
+    <p class="h1 pe-5">Small button group</p>
+    <button type="button" class="btn btn-info">private</button> 
+    <button type="button" class="btn btn-primary">public</button>
+    <button type="button" class="btn btn-success">Exit</button>
+    <button type="button" class="btn btn-danger">hide</button>
+</div>
+<div class="btn-group mt-5">
+    <p class="h1 pe-5">Nesting button group</p>
+    <button type="button" class="btn btn-info">private</button> 
+    <button type="button" class="btn btn-primary">public</button>
+    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">social media</button>
+    <ul class="dropdown-menu">
+    <li<a class="dropdown-item" href="#">facebook</a></li>
+    <li<a class="dropdown-item" href="#">whatsapp</a></li>
+    <li<a class="dropdown-item" href="#">twitter</a></li>
+    </ul>
+    </div>
+    <div class="container mt-5">
+    <h1>Badges</h1>
+    <h1>heading 1 <span class="badge bg-danger">new</span></h1>
+    <h2>heading 1 <span class="badge bg-danger">new</span></h2>
+    <h3>heading 1 <span class="badge bg-danger">new</span></h3>
+    <h4>heading 1 <span class="badge bg-danger">new</span></h4>
+    <h5>heading 1 <span class="badge bg-danger">new</span></h5>
+    <h6>heading 1 <span class="badge bg-danger">new</span></h6>
+</div>
+<div class="container">
+    <h1>Badge inside a button</h1>
+    <button type="button" class="btn btn-warning">message<span class="bg-danger ms-3 py-1 px-2">6</span></button>
+    <button type="button" class="btn btn-info">calls<span class="bg-light ms-3 py-1 px-2">3</span></button>
+</div>
+<div class="container">
+    <h1>progress bar</h1>
+    <div class="progress">
+        <div class="progress-bar" style ="width:80%">80%</div>
+    </div>
+    <h1>progress bar height</h1>
+    <div class="progress" style ="height:20px">
+        <div class="progress-bar" style ="width:60%">60%</div>
+    </div>
+    <div class="progress mt-3" style ="height:40px">
+        <div class="progress-bar" style ="width:60%">60%</div>
+    </div>
+    <h1>colored progress bar</h1>
+    <div class="progress" >
+        <div class="progress-bar bg-warning" style ="width:40%">40%</div>
+    </div>
+    <div class="progress mt-3" >
+        <div class="progress-bar bg-info" style ="width:50%">50%</div>
+    </div>
+    <div class="progress mt-3" >
+        <div class="progress-bar bg-success" style ="width:60%">60%</div>
+    </div>
+    <div class="progress mt-3" >
+        <div class="progress-bar bg-danger" style ="width:70%">70%</div>
+    </div>
+    <h1>striped progress bar</h1>
+    <div class="progress" >
+        <div class="progress-bar bg-warning progress-bar-striped" style ="width:40%">40%</div>
+    </div>
+    <div class="progress mt-3" >
+        <div class="progress-bar bg-info progress-bar-striped" style ="width:50%">50%</div>
+    </div>
+    <div class="progress mt-3" >
+        <div class="progress-bar bg-success progress-bar-striped" style ="width:60%">60%</div>
+    </div>
+    <div class="progress mt-3" >
+        <div class="progress-bar bg-danger progress-bar-striped" style ="width:70%">70%</div>
+    </div>
+   
+</div>
+ 
+ 
 
 
 
