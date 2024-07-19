@@ -80,9 +80,11 @@
     </div>
     <div class="row bg-secondary">
         <div class="col-12 col-sm-6 col-md-4 ">
-        <!-- <div class="card style=width-100px"> -->
-        <img class="img-fluid ms-5 mt-5 rounded"src="https://picsum.photos/300/300">
-        <p class="col px-5 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, delectus sit? Eos tenetur dignissimos obcaecati enim eveniet modi. Recusandae sapiente obcaecati excepturi, ad voluptatem molestiae dolore voluptates quae atque aspernatur?</p> 
+        <!-- <div class="card" style="width:100px"> -->
+        <img class="img-fluid ms-5 mt-5 rounded"  src="https://picsum.photos/300/300">
+        <!-- <div class="card-body"> -->
+        <p class="col px-5 py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, delectus sit? Eos tenetur dignissimos obcaecati enim eveniet modi. Recusandae sapiente obcaecati excepturi, ad voluptatem</p>
+        <!-- </div> -->
         <!-- </div> -->
         </div>
         <div class="col-12 col-sm-6 col-md-4 ">   
@@ -342,8 +344,111 @@
     <div class="progress mt-3" >
         <div class="progress-bar bg-danger progress-bar-striped" style ="width:70%">70%</div>
     </div>
-   
 </div>
+<div class="container">
+    <h2>Spinner border</h2>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-border text-primary"></div>
+    <div class="spinner-border text-warning"></div>
+    <h2>growing spinner</h2>
+    <div class="spinner-grow text-danger"></div>
+    <div class="spinner-grow text-primary"></div>
+    <div class="spinner-grow text-warning"></div>
+    <h2>Spinner size</h2>
+    <div class="spinner-grow text-danger spinner-grow-sm"></div>
+    <div class="spinner-border text-danger spinner-border-sm"></div>
+    <div class="spinner-grow text-primary spinner-grow-md"></div>
+    <div class="spinner-border text-primary spinner-border-md"></div>
+    <h3>spinner button</h3>
+    <button class="btn btn-success">
+        <span class="spinner-border spinner-boreder-sm"></span>
+        loading......
+    </button>
+    <button class="btn btn-success"disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        loading......
+    </button>
+    <h3>Pagination</h3>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">preivious</a></li>
+        <li class="page-item"><a class="page-link" href="#">A</a></li>
+        <li class="page-item"><a class="page-link" href="#">B</a></li>
+        <li class="page-item"><a class="page-link" href="#">C</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <h3>Pagination-active state</h3>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">preivious</a></li>
+        <li class="page-item active"><a class="page-link" href="#">A</a></li>
+        <li class="page-item"><a class="page-link" href="#">B</a></li>
+        <li class="page-item active"><a class="page-link" href="#">C</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <h3>readcrumbs</h3>
+    <ul class="pagination">
+        <li class="breadcrumb-item"><a href="#">preivious</a></li>
+        <li class="breadcrumb-item active">first</li>
+        <li class="breadcrumb-item"><a href="#">second</a></li>
+        <li class="breadcrumb-item active">Third</li>
+        <li class="breadcrumb-item"><a href="#">Next</a></li>
+    </ul>
+    <h3>List group</h3>
+    <ul class="list-group">
+        <li class="list-group-item">chocolate</li>
+        <li class="list-group-item">biscuit</li>
+        <li class="list-group-item">chips</li>
+        <li class="list-group-item">juice</li>
+    </ul>
+</div>
+<div class="container">
+    <h2>Card Image</h2>
+    <div class="card" style="width:300px">
+        <img class="card-img-top"  src="https://picsum.photos/300/300" style="width:100%">
+        <div class="card-body">
+            <h4>profile</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem officiis laborum molestiae minima voluptatum quisquam dicta aspernatur est alias ullam quo eos, sint nesciunt temporibus quidem vel distinctio iure!</p>
+            <a class="btn btn-info" href="#">see profile</a>
+         </div>
+    </div>
+        </div>
+        <div class="container">
+            <h2>Collapse</h2>
+            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo">click me</button>
+            <div id="demo">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quidem et omnis, aliquam natus id, blanditiis, porro illo asperiores libero reiciendis excepturi suscipit sit quibusdam ab? Mollitia ullam pariatur quas!</p>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Toggleable</h3>
+            <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="pill" href="#home">Home</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="pill" href="#tools">Tools</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-bs-toggle="pill" href="#menu">Menu</a>
+                    </li>
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active">
+                    <h5>Home</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo sit voluptatum autem quam! Ipsam eveniet eius expedita vitae repellat aspernatur, fugiat, quo beatae dicta voluptatibus enim hic, accusantium aut!</p>
+                </div>
+                <div id="tools" class="container tab-pane ">
+                    <h5>Tools</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo sit voluptatum autem quam! Ipsam eveniet eius expedita vitae repellat aspernatur, fugiat, quo beatae dicta voluptatibus enim hic, accusantium aut!</p>
+                </div>
+                <div id="menu" class="container tab-pane">
+                    <h5>Menu</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo sit voluptatum autem quam! Ipsam eveniet eius expedita vitae repellat aspernatur, fugiat, quo beatae dicta voluptatibus enim hic, accusantium aut!</p>
+                </div>
+            </div>
+        </div>
+
+    
+
  
  
 
